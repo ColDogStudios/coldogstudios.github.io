@@ -5,10 +5,4 @@ function topNav() {
     } else {
         x.className = "topnav";
     }
-    var y = document.getElementById("topNavCenter")
-    if (y.className === "topnav-center") {
-        y.className = "";
-    } else {
-        y.className = "topnav-center";
-    }
 }
