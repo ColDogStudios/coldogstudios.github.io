@@ -68,38 +68,31 @@
                     
                 </div>
 
-                <div id="Problems" class="h2">
+                <div id="TempUser" class="h2">
                     
-                    <h2>Problems</h2>
-                    
-                    <div id="TempUser" class="h3">
+                    <h2>Temporary User</h2>
+                    <p>This occurs when:</p>
+                    <ul>
+                        <li>The user directory is removed from a domained computer</li>
+                        <li>A virus or program edits the registry profile</li>
+                    </ui>
                         
-                        <h3>Temporary User</h3>
-                        <p>This occurs when:</p>
-                        <ul>
-                            <li>The user directory is removed from a domained computer</li>
-                            <li>A virus or program edits the registry profile</li>
-                        </li>
+                    <div class="h3">
                         
-                        <div class="h4">
-                        
-                            <h4>Fixes</h4>
-                            <ol>
-                                <li>Log in as an administrator</li>
-                                <li>Open the Registry Editor</li>
-                                <li>Navigate to <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code></li>
-                                <li>Rename the <b>Key</b> to remove the <code>.bak</code> or <code>.back</code> from the end of it, or remove the <b>Key</b></li>
-                            </ol>
-                        
-                        </h4>    
-                            
-                    </div>
-                    
-                </div>
+                        <h3>Fixes</h3>
+                        <ol>
+                            <li>Log in as an administrator</li>
+                            <li>Open the Registry Editor</li>
+                            <ul>
+                                <li><i>It is always recommended to backup the registry before making changes</i></li>
+                            </ul>
+                            <li>Navigate to <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code></li>
+                            <li>Rename the <b>Key</b> to remove the <code>.bak</code> or <code>.back</code> from the end of it, or remove the <b>Key</b></li>
+                            <li>Reboot the system</li>
+                        </ol>
 
-                <div id="Fixes" class="h2">
-                    
-                    <h2>Fixes</h2>
+                    </div>
+                            
                     
                 </div>
 
