@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0">
+
+<channel>
+    <title>ColDog Studios Announcements</title>
+    <link>https://ColDogStudios.github.io/announcements</link>
+    <description>Updated 7/17/2022</description>
+
+    <item>
+        <title>ColDog Locker Console</title>
+        <link>https://ColDogStudios.github.io/projects/coldog-locker/windows/console</link>
+        <description>
+            With recent developments in a more GUI version of ColDog Locker for Windows, updates for ColDog Locker Console will slow. 
+            Once ColDog Locker Windows is released, ColDog Locker Console will be slightly reworked to be more direct. 
+            Security issues will continue to be top priority and will be worked on ASAP.
+        </description>
+    </item>
+    
+    <item>
+        <title>XML Tutorial</title>
+        <link>https://www.w3schools.com/xml</link>
+        <description>New XML tutorial on W3Schools</description>
+    </item>
+</channel>
+
+</rss>
